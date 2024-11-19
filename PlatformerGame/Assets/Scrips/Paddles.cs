@@ -10,16 +10,18 @@ public class Paddles : MonoBehaviour
     [SerializeField] private float min = 0f;
     [SerializeField] private float max = 90f;
     private float temp;
-    private bool RoatateAround;
+    private bool RotateAround;
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && RoatateAround ==false) //just to get input
+        if (Input.GetKeyDown(KeyCode.Space) && RotateAround ==false) //just to get input
         {
-            RoatateAround = true;
+            RotateAround = true;
         }
+    }
 
-
-        if (RoatateAround)
+    private void FixedUpdate()
+    {
+        if (RotateAround)
         {
             if (Rotation) //should rotate left
             {
@@ -32,7 +34,6 @@ public class Paddles : MonoBehaviour
             
             temp += 0.5f * Time.deltaTime;
         } //after you complete rotation reset roatatearound to false;
-
         if (temp >= max)
         {
             gameObject.transform.RotateAround(pivotObject.transform.position, Vector3.left, Mathf.Lerp(max, min, temp )); 
@@ -40,7 +41,7 @@ public class Paddles : MonoBehaviour
         else
         {
             gameObject.transform.RotateAround(pivotObject.transform.position, Vector3.right, Mathf.Lerp(max, min, temp));
-        }    
+        }
     }
 }
     

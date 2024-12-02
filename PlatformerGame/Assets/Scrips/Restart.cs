@@ -4,19 +4,20 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
     
-    public class Restart : MonoBehaviour
+public class Restart : MonoBehaviour
+{
+    [SerializeField]private GameObject restartCanvas;
+    public void RestartGame() 
     {
-        [SerializeField]private GameObject restartCanvas;
-    	public void RestartGame() {
-    		SceneManager.LoadScene(SceneManager.GetActiveScene().name); 
-            restartCanvas.SetActive(false);
-    	}
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name); 
+        restartCanvas.SetActive(false);
+    }
 
-        private void Update()
+    private void Update()
+    {
+        if(Input.GetKeyDown(KeyCode.Escape))
         {
-            if(Input.GetKeyDown(KeyCode.Escape))
-            {
-                restartCanvas.SetActive(!restartCanvas.activeSelf);
-            }
+            restartCanvas.SetActive(!restartCanvas.activeSelf);
         }
     }
+}

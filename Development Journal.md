@@ -212,11 +212,11 @@ This code didn't the paddles weren't moving and because the person who helped me
 
 
 
+- [https://lunarlynx-games.itch.io/bitball-bounce](itchlink)
+- [https://github.com/AnnaRogers04](gitlink)
+- [https://youtu.be/bjTTuAMwsLE?si=PC70dI8VUV12Xpg-](youtubelink)
 
 
-- [LINK TO GAME](itchlink)
-- [](gitlink)
-- [LINK TO DEMONSTRATION VIDEO](youtubelink)
 
 
 
@@ -240,28 +240,26 @@ Unity3D Pinball Tutorial part III- The plunger (2017) At: https://www.youtube.co
 ## Declared Assets
 ChatGBT 3.5 
 
-
 # Documentation
-
-
-
-
+I wanted to create a paddle system for my game. I was originally going to use hinge joints but after some difficulties with the system I attempted to code the paddles, this eventually worked. After adding obstacles with bounce pads and rotating objects the game came together really well.
 
 # Implementation
 
 ## What was the process of completing the task? What influenced your decision making?
+When making my game i was given a concept to base my game off of. Through this concept i decided to create a physics base game where my more difficult code was focused on the paddles. I decided to use physics because ive never used physics before and wanted to learn something new.
 
 ## What was the process of completing the task at hand? Did you do any initial planning?
+I didn't have any initial concept for my game. I knew that i was making a pinball game but i didn't know how i wanted to lay it out or the obstacles or how the game itself was going to run. The more i put into the scene the more the project came together.
 
 ## Did you receive any feedback from users, peers or lecturers? How did you react to it?
-
+The feedback i received was that the angled world i made was a big issue when making the paddles. After a while i agreed that the world was the issue and straightened it, making everything a lot more easier.
 
 ### What creative or technical approaches did you use or try, and how did this contribute to the outcome?
-
+I attempted to use a hinge joint for my paddles, eventually the hinge joint wasn't working as expected and i had to change my idea. The hinge joint didn't contribute to my final project.
 
 
 ### Did you have any technical difficulties? If so, what were they and did you manage to overcome them?
-
+I had a lot of technical issues with the paddles. They weren't moving how I wanted them to, when they did move there wasn't enough upwards force to push the ball up back into the game. For this i changed the speed of the paddles and added bounce pads to add the force desired. 
 
 
 

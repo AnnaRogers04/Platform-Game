@@ -22,9 +22,17 @@ https://www.youtube.com/watch?v=LXOy2uWjJFQ
 ### Concept
 For my concept I wanted to create a pinball-like game that has functioning paddles and obstacles. I wanted the obstacles to have bounce pads so the ball darts around the scene I created like a real pinball machine.
 
-## The Process
+# The Process
 The process for the paddles was trial and error, below is the 1st code sample I created in an attempt to get the paddles moving.
+I know I wanted the ball to 
 
+## Music 
+For this game I added upbeat 8-bit theme music like in arcades. I wanted to generate that arcade retro feel in the game to simulate a pinball machine. This adds a level of fun and annoyance to the game as the longer the game plays the more that same tune will become more and more rage educing. 
+## particle
+I added particles to the bottom of my game to act as a target for where you (the player) should aim to end up. I made them red so they stood out from the main game and are clear to see for the player. 
+
+
+![alt text](<Particle ss for dev journal.png>)
 
 ### Paddles.cs
 
@@ -255,7 +263,7 @@ I didn't have any initial concept for my game. I knew that i was making a pinbal
 The feedback i received was that the angled world i made was a big issue when making the paddles. After a while i agreed that the world was the issue and straightened it, making everything a lot more easier.
 
 ### What creative or technical approaches did you use or try, and how did this contribute to the outcome?
-I attempted to use a hinge joint for my paddles, eventually the hinge joint wasn't working as expected and i had to change my idea. The hinge joint didn't contribute to my final project.
+I attempted to use a hinge joint for my paddles, eventually the hinge joint wasn't working as expected and i had to change my idea. The hinge joint didn't contribute to my final project. I also learnt how to add music and particles to the game. The music has an upbeat tune making the game really immersive, while the particles act as a target for the player. I think this went well and added to the overall game.
 
 
 ### Did you have any technical difficulties? If so, what were they and did you manage to overcome them?

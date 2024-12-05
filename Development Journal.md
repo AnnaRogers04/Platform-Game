@@ -239,15 +239,6 @@ During the process of this game I really struggled making the paddles work, the 
 ### What would you do differently next time?
 If i had the time i would have researched more into hinge joints and attempted to make it work more. Unfortunately due to time constraints I had to change my approach to the paddles.
 
-## Bibliography
-Technologies, U. (s.d.) Unity - Manual: Hinge Joint component reference. At: https://docs.unity3d.com/6000.0/Documentation/Manual/class-HingeJoint.html (Accessed  29/11/2024).
-
-Unity3D Pinball Tutorial part III- The plunger (2017) At: https://www.youtube.com/watch?v=LXOy2uWjJFQ (Accessed  29/11/2024).
-
-
-## Declared Assets
-ChatGBT 3.5 
-
 # Documentation
 I wanted to create a paddle system for my game. I was originally going to use hinge joints but after some difficulties with the system I attempted to code the paddles, this eventually worked. After adding obstacles with bounce pads and rotating objects the game came together really well.
 
@@ -268,6 +259,16 @@ I attempted to use a hinge joint for my paddles, eventually the hinge joint wasn
 
 ### Did you have any technical difficulties? If so, what were they and did you manage to overcome them?
 I had a lot of technical issues with the paddles. They weren't moving how I wanted them to, when they did move there wasn't enough upwards force to push the ball up back into the game. For this i changed the speed of the paddles and added bounce pads to add the force desired. 
+
+## Bibliography
+Technologies, U. (s.d.) Unity - Manual: Hinge Joint component reference. At: https://docs.unity3d.com/6000.0/Documentation/Manual/class-HingeJoint.html (Accessed  29/11/2024).
+
+Unity3D Pinball Tutorial part III- The plunger (2017) At: https://www.youtube.com/watch?v=LXOy2uWjJFQ (Accessed  29/11/2024).
+
+
+## Declared Assets
+ChatGBT 3.5 
+8 Bit Retro Game Music | Royalty-free Music (s.d.) At: https://pixabay.com/music/video-games-8-bit-retro-game-music-233964/ (Accessed  05/12/2024).
 
 
 

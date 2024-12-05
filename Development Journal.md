@@ -28,9 +28,15 @@ I know I wanted the ball to
 
 ## Music 
 For this game I added upbeat 8-bit theme music like in arcades. I wanted to generate that arcade retro feel in the game to simulate a pinball machine. This adds a level of fun and annoyance to the game as the longer the game plays the more that same tune will become more and more rage educing. 
-## particle
-I added particles to the bottom of my game to act as a target for where you (the player) should aim to end up. I made them red so they stood out from the main game and are clear to see for the player. 
 
+## particle
+I added particles to the bottom of my game to act as a target for where you (the player) should aim to end up. I made them red so they stood out from the main game and are clear to see for the player. On top of the particles i also added a collider, when hit this collider leads to a win screen.
+
+## Scenes
+I decided I wanted a main menu screen on my game, that way it looked more professional and doesn't immediately open the game. I think this makes the game look nicer as i didn't focus on graphics.
+Along with my main menu scene I added a win scene that's triggered when the player collides with the collider I added onto the particle system.
+Along with this i also added a main menu button onto my pause screen. 
+My win screen has a play again and main menu button that's fully functional and my main menu has a play and quit game button, both of which also work.
 
 ![alt text](<Particle ss for dev journal.png>)
 
@@ -269,6 +275,8 @@ Unity3D Pinball Tutorial part III- The plunger (2017) At: https://www.youtube.co
 ## Declared Assets
 ChatGBT 3.5 
 8 Bit Retro Game Music | Royalty-free Music (s.d.) At: https://pixabay.com/music/video-games-8-bit-retro-game-music-233964/ (Accessed  05/12/2024).
+Stylized Tiles Texture | 2D Tiles | Unity Asset Store (s.d.) At: https://assetstore.unity.com/packages/2d/textures-materials/tiles/stylized-tiles-texture-192876 (Accessed  05/12/2024).
+
 
 
 

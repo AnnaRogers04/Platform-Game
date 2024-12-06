@@ -38,7 +38,7 @@ Along with my main menu scene I added a win scene that's triggered when the play
 Along with this i also added a main menu button onto my pause screen. 
 My win screen has a play again and main menu button that's fully functional and my main menu has a play and quit game button, both of which also work.
 
-![alt text](<Particle ss for dev journal.png>)
+![alt text](<https://raw.githubusercontent.com/AnnaRogers04/Platform-Game/refs/heads/main/Particle%20ss%20for%20dev%20journal.png>)
 
 ### Paddles.cs
 

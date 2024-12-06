@@ -226,9 +226,9 @@ This code didn't the paddles weren't moving and because the person who helped me
 
 
 
-- [https://lunarlynx-games.itch.io/bitball-bounce](itchlink)
-- [https://github.com/AnnaRogers04](gitlink)
-- [https://youtu.be/bjTTuAMwsLE?si=PC70dI8VUV12Xpg-](youtubelink)
+- [itchlink](https://lunarlynx-games.itch.io/bitball-bounce)
+- [gitlink](https://github.com/AnnaRogers04)
+- [youtubelink](https://youtu.be/bjTTuAMwsLE?si=PC70dI8VUV12Xpg-)
 
 
 
